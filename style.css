@@ -51,8 +51,18 @@ main{
     background-size: cover;
 }
 
+.card:hover .uno{
+    background-image: url(./img/1b.webp);
+    background-size: cover;
+}
+
 .due{
     background-image: url(./img/2.webp);
+    background-size: cover;
+}
+
+.card:hover .due{
+    background-image: url(./img/2b.webp);
     background-size: cover;
 }
 
@@ -61,8 +71,18 @@ main{
     background-size: cover;
 }
 
+.card:hover .tre{
+    background-image: url(./img/3b.webp);
+    background-size: cover;
+}
+
 .quattro{
     background-image: url(./img/4.webp);
+    background-size: cover;
+}
+
+.card:hover .quattro{
+    background-image: url(./img/4b.webp);
     background-size: cover;
 }
 
@@ -71,10 +91,21 @@ main{
     background-size: cover;
 }
 
+.card:hover .cinque{
+    background-image: url(./img/5b.webp);
+    background-size: cover;
+}
+
 .sei{
     background-image: url(./img/6.webp);
     background-size: cover;
 }
+
+.card:hover .sei{
+    background-image: url(./img/6b.webp);
+    background-size: cover;
+}
+
 /* fine foto */
 
 .info > p{
@@ -150,3 +181,5 @@ footer p{
     font-size: x-small;
     margin: 5px 0;
 }
+
+/* fine footer */

@@ -104,12 +104,11 @@ main{
     color: white;
     text-align: center;
     padding: 5px;
-    position: absolute;
-    left: 0;
-    bottom: 40px;
+    display: inline-block;
 }
 
 .sustainability{
+    display: inline-block;
     background-color: green;
     height: 28px;
     width: 100px;
@@ -117,8 +116,11 @@ main{
     padding: 5px;
     color: white;
     font-size: smaller;
+}
+
+.scontistica{
     position: absolute;
-    left: 55px;
+    left: 0;
     bottom: 40px;
 }
 

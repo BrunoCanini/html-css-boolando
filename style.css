@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* Inizio Header */
 
 .contenitore{
@@ -40,12 +44,13 @@ main{
 }
 
 .foto{
-    width: 400px;
+    width: 100%;
     min-height: 600px;
     position: relative;
 }
 
 /* foto */
+
 .uno{
     background-image: url(./img/1.webp);
     background-size: cover;
@@ -54,16 +59,19 @@ main{
 .card:hover .uno{
     background-image: url(./img/1b.webp);
     background-size: cover;
+    transition: 0.4s;
 }
 
 .due{
     background-image: url(./img/2.webp);
     background-size: cover;
+
 }
 
 .card:hover .due{
     background-image: url(./img/2b.webp);
     background-size: cover;
+    transition: 0.4s;
 }
 
 .tre{
@@ -74,6 +82,7 @@ main{
 .card:hover .tre{
     background-image: url(./img/3b.webp);
     background-size: cover;
+    transition: 0.4s;
 }
 
 .quattro{
@@ -84,6 +93,7 @@ main{
 .card:hover .quattro{
     background-image: url(./img/4b.webp);
     background-size: cover;
+    transition: 0.4s;
 }
 
 .cinque{
@@ -94,6 +104,7 @@ main{
 .card:hover .cinque{
     background-image: url(./img/5b.webp);
     background-size: cover;
+    transition: 0.4s;
 }
 
 .sei{
@@ -104,6 +115,7 @@ main{
 .card:hover .sei{
     background-image: url(./img/6b.webp);
     background-size: cover;
+    transition: 0.4s;
 }
 
 /* fine foto */
@@ -165,6 +177,7 @@ main{
 
 .card{
     margin-top: 30px;
+    width: 420px;
 }
 
 /* footer */

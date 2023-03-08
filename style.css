@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Inizio Header */
+
+.contenitore{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    width: 100vw;
+    background-color: #ff6900;
+    padding: 15px;
+    color: white;
+}
+
+.boolean > img{
+    width: 150px;
+}
+
+.menu > span{
+    margin-right: 5px;
+}

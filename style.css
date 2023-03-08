@@ -45,6 +45,7 @@ main{
     position: relative;
 }
 
+/* foto */
 .uno{
     background-image: url(./img/1.webp);
     background-size: cover;
@@ -74,6 +75,7 @@ main{
     background-image: url(./img/6.webp);
     background-size: cover;
 }
+/* fine foto */
 
 .info > p{
     color: grey;
@@ -139,6 +141,12 @@ main{
 footer{
     margin-top: 50px;
     width: 100vw;
-    height: 100px;
     background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+footer p{
+    font-size: x-small;
+    margin: 5px 0;
 }

@@ -7,7 +7,7 @@
 /* Inizio Header */
 
 .contenitore{
-    max-width: 1500px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -95,4 +95,23 @@ main{
     position: absolute;
     left: 55px;
     bottom: 40px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 30px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 50px;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
 }

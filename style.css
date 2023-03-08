@@ -139,6 +139,11 @@ main{
     position: absolute;
     right: 0;
     top: 15px;
+    display: none;
+}
+
+.card:hover .heart{
+    display: block;
 }
 
 .sale{

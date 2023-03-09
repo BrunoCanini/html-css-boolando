@@ -32,8 +32,10 @@ header{
     width: 150px;
 }
 
-.menu > span{
+.menu > a{
     margin-right: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 /* Fine header */

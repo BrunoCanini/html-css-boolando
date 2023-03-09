@@ -26,6 +26,9 @@ header{
     background-color: #ff6900;
     padding: 15px;
     color: white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 .boolean > img{
@@ -42,7 +45,7 @@ header{
 /* Inizio main card */
 
 main{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .foto{
